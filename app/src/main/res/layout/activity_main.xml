@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="60dp"
+    android:background="#ffff7867"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/create_new_budget"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/create_new_budget"
+        android:onClick="buttonPicker"/>
+
+    <Button
+        android:id="@+id/open_current_budget"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:onClick="buttonPicker"/>
+
+    <Button
+        android:id="@+id/budget_history"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/budget_history"
+        android:onClick="buttonPicker"/>
+
+    <Button
+        android:id="@+id/settings"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="@string/settings"
+        android:onClick="buttonPicker"/>
+
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Budget Track</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="budget_history">Budget History</string>
+    <string name="settings">Settings</string>
+    <string name="title_activity_current_budget">CurrentBudgetActivity</string>
+    <string name="create_new_budget">Create new budget</string>
+    <string name="title_activity_create_new_budget">CreateNewBudgetActivity</string>
+</resources>
